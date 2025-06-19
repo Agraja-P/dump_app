@@ -1,0 +1,68 @@
+.app-wrapper {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #f9f9ff, #dbeafe, #f3e8ff);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.app-container {
+  max-width: 600px;
+  width: 100%;
+  padding: 2rem;
+  text-align: center;
+
+  background: rgba(255, 255, 255, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  backdrop-filter: blur(18px);
+  -webkit-backdrop-filter: blur(18px);
+  border-radius: 16px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+
+  transition: all 0.3s ease;
+}
+
+.app-container:hover {
+  transform: scale(1.01);
+}
+
+h1 {
+  color: #3f51b5;
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.subtitle {
+  color: #000000;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+button {
+  background-color: #673ab7;
+  color: white;
+  border: none;
+  padding: 0.8rem 1.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #5e35b1;
+}
+
+.note {
+  margin-top: 1rem;
+  color: #b66d07;
+  font-style: italic;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+footer {
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
